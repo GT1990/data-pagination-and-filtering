@@ -38,7 +38,7 @@ function showPage(list, page) {
     studentDetailsDIV.className = "student-details";
     const avatar = document.createElement("img");
     avatar.className = "avatar";
-    avatar.src = student.picture.thumbnail;
+    avatar.src = student.picture.large;
     avatar.alt = "Profile Picture";
     studentDetailsDIV.appendChild(avatar);
     const name = document.createElement("h3");
@@ -105,8 +105,18 @@ function addPagination(list) {
  * Extra Credit
  */
 
+// Selected header so we can append the searchbar to it
 const header = document.querySelector(".header");
 
+/**
+ * Summary: Creates a search bar for users to filter through students.
+ *
+ * Description: Those students are added to a new filtered list of students in the liveSearch().
+ * Two event listeners call liveSearch() on the keyUp event and search button click.
+ * LiveSearch() then calls showPage() and addPagination() to update the students displayed on the page.
+ *
+ * @param {Object[]} list
+ */
 function searchBar(list) {
   const label = document.createElement("label");
   label.htmlFor = "search";
@@ -126,7 +136,11 @@ function searchBar(list) {
   button.appendChild(img);
   label.appendChild(button);
   header.appendChild(label);
-
+  /**
+   * Summary: Checks if search bar input matches student names.
+   * If match is found that student is added to a new list.
+   * @param {String} search
+   */
   function liveSearch(search) {
     search = search.toUpperCase();
     const newList = [];
