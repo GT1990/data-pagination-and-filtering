@@ -8,3 +8,6 @@ Allowing the user to filter through the students.
 # Example
 
 ![Example](/examples/example-exceeds.png)
+
+- [Introduction](#introduction)
+- [Example](#example)
