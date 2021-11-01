@@ -9,5 +9,10 @@ Allowing the user to filter through the students.
 
 ![Example](/examples/example-exceeds.png)
 
+# About
+
+Data pagination and data filtering
+
 - [Introduction](#introduction)
 - [Example](#example)
+- [About](#about)
