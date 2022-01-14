@@ -1,18 +1,20 @@
-# Introduction
+# data-pagination-and-filtering
 
-The Data-Pagination-And-Filtering was created in Unit #2 of the Techdegree course at teamtreehouse.com.
-All files were provided except the script.js file. In the script.js file I added functionality to
-display 9 students per page with pagination buttons. Lastly I created the search bar feature at the top of the page.
-Allowing the user to filter through the students.
+## Description
 
-# Example
+The Data-Pagination-And-Filtering displays display 9 students per page with pagination buttons with a search bar feature, at the top of the page, allowing users to filter through the students.
 
-![Example](/examples/example-exceeds.png)
+## Example
 
-# About
+![Example](/img/ss1_data-pagination-and-filtering.png)
+![Example](/img/ss2_data-pagination-and-filtering.png)
+![Example](/img/ss3_data-pagination-and-filtering.png)
+
+## About
 
 Data pagination and data filtering
 
-- [Introduction](#introduction)
-- [Example](#example)
-- [About](#about)
+- [data-pagination-and-filtering](#data-pagination-and-filtering)
+  - [Description](#description)
+  - [Example](#example)
+  - [About](#about)
